@@ -33,13 +33,29 @@ header {
 
 .dmg-counter {
   text-align: center;
-
   background-color: #857c72;
   border: solid #aa9c87 5px;
   margin: 10px;
 }
 
-div.dmg-counter:active {
+/* div.dmg-counter:active {
+  background-color: #635b53;
+  border: solid #796e5d 5px;
+} */
+
+.atk-btn {
+  text-align: center;
+  margin: 60px auto;
+}
+
+#atk {
+  background-color: #857c72;
+  width: 240px;
+  height: 50px;
+  border: solid #aa9c87 5px;
+}
+
+button#atk:active {
   background-color: #635b53;
   border: solid #796e5d 5px;
 }
