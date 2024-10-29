@@ -4,18 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+
     <title>Rpg Clicker</title>
   </head>
   <body>
     <header>
       <h1>Rpg Clicker</h1>
     </header>
-    <div>
-      <div class="dummy-div">
+    <div class="parent-div">
+      <div class="sprite" id="dummy-div">
         <img id="dummy" src="./imgs/Dummy.png" alt="" />
+        <div class="dmg-counter">
+          <p>damage:<span class="dmg"></span></p>
+        </div>
       </div>
-      <div class="sword-div">
+      <div class="sprite" id="sword-div">
         <img id="sword" src="./imgs/Sword.png" alt="" />
+        <div class="dmg-counter">
+          <p>hits:<span class="hits"></span></p>
+        </div>
       </div>
     </div>
   </body>

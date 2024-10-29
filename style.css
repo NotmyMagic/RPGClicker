@@ -7,3 +7,39 @@
 body {
   background-color: bisque;
 }
+
+header {
+  background-color: #f5c790;
+  text-align: center;
+  width: 240px;
+  height: 50px;
+  margin: 20px auto;
+  border: solid #bb9d79 5px;
+}
+
+.parent-div {
+  margin-top: 300px;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.sprite {
+  background-color: #f5c790;
+  text-align: center;
+  padding: 0 10%;
+  border: solid #bb9d79 5px;
+}
+
+.dmg-counter {
+  text-align: center;
+
+  background-color: #857c72;
+  border: solid #aa9c87 5px;
+  margin: 10px;
+}
+
+div.dmg-counter:active {
+  background-color: #635b53;
+  border: solid #796e5d 5px;
+}
