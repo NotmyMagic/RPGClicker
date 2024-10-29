@@ -15,15 +15,19 @@
       <div class="sprite" id="dummy-div">
         <img id="dummy" src="./imgs/Dummy.png" alt="" />
         <div class="dmg-counter">
-          <p>damage:<span class="dmg"></span></p>
+          <p>damage:<span id="dmg"></span></p>
         </div>
       </div>
       <div class="sprite" id="sword-div">
         <img id="sword" src="./imgs/Sword.png" alt="" />
         <div class="dmg-counter">
-          <p>hits:<span class="hits"></span></p>
+          <p>hits:<span id="hits"></span></p>
         </div>
       </div>
     </div>
+    <div class="atk-btn">
+      <button id="atk" onclick="swingSword()">Attack</button>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
