@@ -1,3 +1,4 @@
 ## Rpg Clicker
 
-planning to add js to accumulate damage
+deal random damage with each sword hit
+
